@@ -1,0 +1,202 @@
+/* Global Styles */
+
+body {
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    color: rgb(132, 132, 132);
+    line-height: 1.625;
+    position: relative;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h3 {
+    color: rgb(34, 34, 34);
+    font-size: 22px;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*------------------------------------
+  0. Header
+------------------------------------*/
+
+#home {
+    background: url('../images/header.jpg') fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    color: #fff;
+    border-top: 10px solid #2ecc71;
+}
+
+#home .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+}
+
+#home .logo::after {
+    content: ".";
+    color: #2ecc71;
+}
+
+#home h3 {
+    line-height: 1.5;
+    padding: 25px 0;
+    margin-right: 80px;
+	color:#fff;
+}
+
+#home ul {
+    padding-left: 0;
+    display: block;
+}
+
+#home ul li {
+    display: inline-block;
+}
+
+#home ul a {
+    font-size: 30px;
+    color: #f4f4f4;
+    padding: 0 10px;
+}
+
+#home i {
+    background-color: #342118;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#home ul i:hover {
+    background-color: #2ecc71;
+}
+
+
+/*------------------------------------
+  1. Feature
+------------------------------------*/
+
+.features-item {
+    text-align: center;
+}
+
+.features-item i {
+    font-size: 50px;
+    color: #fff;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+/*------------------------------------
+  2. Get notified
+------------------------------------*/
+
+#notified {
+    background-color: #e3e3e3;
+}
+
+#notified h3 {
+    margin-top: 0;
+}
+
+#notified .updates {
+    margin-right: 100px;
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter input {
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.newsletter .input-group-btn button {
+    padding: 8px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2ecc71;
+    border-radius: 10px;
+}
+
+
+/*------------------------------------
+  3. Testimonials
+------------------------------------*/
+
+.testimonials blockquote {
+    border-left: none;
+}
+
+.testimonials cite {
+    font-size: 18px;
+    font-style: none;
+    color: rgb(46, 46, 46);
+    font-weight: bold;
+}
+
+.social ul {
+    padding-left: 0;
+    display: block;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul a {
+    font-size: 30px;
+    color: #f4f4f4;
+    padding: 0 10px;
+}
+
+.social i {
+    background-color: rgb(197, 197, 197);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.social ul i:hover {
+    background-color: #2ecc71;
+}
+
+
+/*------------------------------------
+  4.Footer
+------------------------------------*/
+
+#footer {
+    padding: 40px 0;
+    background-color: #e3e3e3;
+    text-align: center;
+}
+
+#footer ul {
+    padding-left: 0;
+    margin-top: 10px;
+    display: block;
+}
+
+#footer ul li {
+    display: inline-block;
+}
+
+#footer ul a {
+    color: rgb(132, 132, 132);
+    padding: 0 10px;
+    text-decoration: none;
+}
